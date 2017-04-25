@@ -1,0 +1,86 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# git output
+*.orig
+*.rej
+
+# compiled output
+/public
+/tmp
+/dist
+
+# dependencies
+/node_modules
+/client/assets/bower_components
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
+typings
+
+
+#test reports and logs
+/target
+
+
+# e2e/
+/e2e/**/*.js
+/e2e/**/*.map
+
+
+# server
+/server/**/*.js
+
+# shared/
+/shared/**/*.js
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Output and temporary files
+*.bak
+*.exe
+*.lib
+*.log
+*.map
+*.obj
+*.pch
+*.pdb
+*.pyc
+*.tlb
+*.tmp
+*.log.*
+
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+*.[Rr]esharper
+
+
+
+*.pyc
+
+npm-debug.log.*# Robot Global Files 
+RobotGlobalLibrary/ 
+RobotGlobalLibrary-config.txt
+testRobotGlobalLibrary-config.txt 
+
+test/functional/Robot/SauceLabs/SauceLabs-Tunnel-Is-Ready.txt
